@@ -194,7 +194,7 @@ preloader
   background-image: -webkit-radial-gradient(center 10px,80px 100px,#ffffff 50%, #e15d3a 51% );
 
   background-size: 40px 150px;
-  -webkit-background-clip: content-box;
+  -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   -webkit-animation-name: wave-animation;
   -webkit-animation-duration: 2.5s;
@@ -269,6 +269,7 @@ ul li {
 }
 
 .sb-text {
+  font-family: "Rubik", sans-serif;
   color: #6f6f87;
   margin: 0;
   font-size: 15px;
@@ -838,12 +839,13 @@ social icons
 }
 
 .sb-social li a {
+  cursor: pointer;
   transition: 0.3s ease-in-out;
   font-size: 14px;
 }
 
-.sb-social li a:hover {
-  color: #f5c332;
+.sb-social li:hover {
+  color: #e15d3a;
 }
 
 .sb-social li:last-child {
